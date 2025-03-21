@@ -1,10 +1,9 @@
-#Prog03: Create a program that ask the user to input their fullname. Print the input in all capital letter.
-#Example:
-#Input: Juan Dela Cruz
-#Output: JUAN DELA CRUZ
-
 # Ask to input full name
+print("What is you name?")
+name = input("Name: ")
 
 # Convert full name into uppercase
+uppercase = name.upper()
 
 # Print the name in uppercase
+print("\nOutput:", uppercase)
