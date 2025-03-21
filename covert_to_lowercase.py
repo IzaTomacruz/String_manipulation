@@ -1,10 +1,9 @@
-#Prog04: Create a program that ask the user to input their fullname. Print the input in all lower case.
-#Example:
-#Input: Juan Dela Cruz
-#Output: juan dela cruz
+# Ask to input full name
+print("What is you name?")
+name = input("Name: ")
 
-# Ask for a full name 
+# Convert full name into uppercase
+lowercase = name.lower()
 
-# Conver all letters to lowercase
-
-# print the result
+# Print the name in uppercase
+print("\nOutput:", lowercase)
