@@ -1,10 +1,9 @@
-#Prog08: Create a program that ask the user to input their fullname. Print the number of characters in the input.
-#Example:
-#Input: Juan Dela Cruz
-#Output: 14
-
 # Ask for a fullname
+print("What is you name?")
+name = input("Name: ")
 
 # Count the number of characters in the full name
+characters = len(name)
 
 # print the result
+print("Number of characters:", characters)
