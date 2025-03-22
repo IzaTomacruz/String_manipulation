@@ -1,12 +1,9 @@
-#Prog09: Create a program that ask the user to input their fullname in incorrect casing. Print the input in pascal case.
-#Example:
-#Input: jUAn DEla CrUZ
-#Output: JuanDelaCruz
-
 # Ask for a full name
+print("What is you name?")
+name = input("Name: ")
 
-# Correct the incorrect casing of the name
-
-# Convert full name into pascal case
+# Correct the incorrect casing of the name and onvert into pascal case
+pascal_name = name.title().replace(" ", "")
 
 # Print the result
+print("\nOutput:", pascal_name)
