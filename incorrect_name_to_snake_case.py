@@ -1,12 +1,9 @@
-#Prog10: Create a program that ask the user to input their fullname in incorrect casing. Print the input in snake case.
-#Example:
-#Input: jUAn DEla CrUZ
-#Output: juan_dela_cruz
-
 # Ask for a full nams
+print("What is you name?")
+name = input("Name: ")
 
-# Correct the incorrect casing of the name
-
-# Convert full name into snake case
+# Correct the incorrect casing of the name and convert into snake case
+snakecase_name = name.lower().replace(" ", "_")
 
 # Print the result
+print("\nOutput:", snakecase_name)
